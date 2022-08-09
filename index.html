@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title class="titulo">Animais Fantásticos</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;
+      1,700&family=Orbitron:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Orbitron:wght@400;500;600;700;800&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      document.documentElement.className += " js";
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <nav class="menu" data-menu="suave">
+        <button data-menu="button" aria-expanded="false" aria-controls="menu">
+          Menu
+        </button>
+        <ul data-menu="list" id="menu">
+          <li><a href="#animais">Animais</a></li>
+          <li><a href="#faq">Faq</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li data-dropdown>
+            <a href="sobre.html">Sobre</a>
+            <ul class="dropdown-menu">
+              <li><a href="empresa.html">A Empresa</a></li>
+              <li><a href="equipe.html">A Equipe</a></li>
+              <li><a href="socios.html">Sócios</a></li>
+              <li><a href="investidores.html">Investidores</a></li>
+            </ul>
+          </li>
+          <li><a href="https://github.com/LuizRC">Dev →</a></li>
+          <li><a data-modal="abrir" href="login.html">Login →</a></li>
+        </ul>
+      </nav>
+
+      <section class="grid-section animais" data-anime="scroll" id="animais">
+        <h1 class="titulo">Animais Fantásticos</h1>
+
+        <ul class="animais-lista" data-tab="menu">
+          <!--Teste Node !!!-->
+          <li>
+            <img src="img/gato.jpg" alt="" />
+          </li>
+
+          <li>
+            <img src="img/cachorro.jpg" alt="" />
+          </li>
+
+          <li>
+            <img src="img/bison2.jpg" alt="" />
+          </li>
+
+          <li>
+            <img src="img/aguia.jpg" alt="" />
+          </li>
+
+          <li>
+            <img src="img/elefantes.jpg" alt="" />
+          </li>
+
+          <li>
+            <img src="img/urso.jpg" alt="" />
+          </li>
+        </ul>
+
+        <div class="animais-descricao" data-tab="content">
+          <section data-anime="show-right">
+            <h2>Gato</h2>
+            <p>
+              O gato (Felis silvestris catus), também conhecido como gato
+              caseiro, gato urbano ou gato doméstico, é um mamífero carnívoro da
+              família dos felídeos, muito popular como animal de estimação.
+              Ocupando o topo da cadeia alimentar, é predador natural de
+              diversos animais, como roedores, pássaros, lagartixas e alguns
+              insetos.
+            </p>
+            <p>
+              Segundo pesquisas realizadas por instituições norte-americanas, os
+              gatos consistem no segundo animal de estimação mais popular do
+              mundo, estando numericamente atrás apenas dos peixes de aquário.
+            </p>
+            <p>
+              A primeira associação dos gatos com os humanos da qual se tem
+              evidência ocorreu há cerca de 9 500 anos, período mais antigo ao
+              estimado anteriormente, que oscilava entre 3 500 e 8 000 anos. A
+              subfamília Felinae, que agrupa os gatos domésticos, surgiu há
+              cerca de 12 milhões de anos, expandindo-se a partir da África
+              subsariana até alcançar as terras do atual Egito.
+            </p>
+            <p>
+              Acredita-se que o gato-selvagem-africano (Felis silvestris lybica)
+              era seu antepassado imediato. Adicionalmente, evidências genéticas
+              assinalam que os gatos domésticos atuais partilham uma procedência
+              direta com os gatos selvagens do Oriente Médio.
+            </p>
+          </section>
+
+          <section data-anime="show-down">
+            <h2>Cão</h2>
+            <p>
+              O cão (nome científico: Canis lupus familiaris), no Brasil também
+              chamado de cachorro, é um mamífero carnívoro da família dos
+              canídeos, subespécie do lobo, e talvez o mais antigo animal
+              domesticado pelo ser humano. Teorias postulam que surgiu do lobo
+              cinzento no continente asiático há mais de 100 000 anos.
+            </p>
+            <p>
+              Ao longo dos séculos, através da domesticação, o ser humano
+              realizou uma seleção artificial dos cães por suas aptidões,
+              características físicas ou tipos de comportamento. O resultado foi
+              uma grande diversidade de raças caninas, as quais variam em
+              pelagem e tamanho dentro de suas próprias raças, atualmente
+              classificadas em diferentes grupos ou categorias.
+            </p>
+            <p>
+              As designações vira-lata (no Brasil) ou rafeiro (em Portugal) são
+              dadas aos cães sem raça definida ou mestiços descendentes.
+            </p>
+            <p>
+              Com expectativa de vida que varia entre dez e vinte anos, o cão é
+              um animal social que, na maioria das vezes, aceita o seu dono como
+              o "chefe da matilha" e possui várias características que o tornam
+              de grande utilidade para o homem. Possui excelente olfato e
+              audição, é bom caçador e corredor vigoroso, relativamente dócil e
+              leal, inteligente e com boa capacidade de aprendizagem. Deste
+              modo, o cão pode ser adestrado para executar um grande número de
+              tarefas úteis, como um cão de caça, de guarda ou pastor de
+              rebanhos, por exemplo.
+            </p>
+          </section>
+
+          <section data-anime="show-right">
+            <h2>Bisão</h2>
+            <p>
+              Os bisontes ou bisões são grandes mamíferos ungulados e ruminantes
+              do género Bison, da família Bovidae, com duas espécies ainda
+              existentes: o bisonte-europeu, Bison bonasus; e o
+              bisonte-americano, Bison bison. Têm cornos curtos, negros,
+              curvados para cima e para o eixo do animal e os ombros elevados
+              numa bossa e com uma forte cobertura de pelos longos; os cascos
+              são redondos e negros.
+            </p>
+            <p>
+              O bisonte-europeu (também chamado wisent, em inglês) tem uma juba
+              e barba menos luxuriantes que o americano (também chamado buffalo,
+              embora os verdadeiros búfalos sejam animais da mesma família, mas
+              da África e da Ásia), enquanto que estes têm as pernas mais
+              curtas.
+            </p>
+            <p>
+              Os machos podem atingir uma altura ao nível dos ombros de cerca de
+              1,7 metro, um comprimento do corpo de 3,6 metros e um peso de 1
+              130 quilogramas, enquanto que as fêmeas são menores. A pelagem de
+              inverno do bisonte-americano é castanha-escura e esparsa, mudando
+              na primavera para um pelo curto e castanho-claro. Também é menos
+              luxuriante nas fêmeas que nos machos. O seu tempo de vida é de 30
+              a 50 anos. Os homens das cavernas usavam, como machado, uma
+              omoplata de um bisonte. Desde 9 de maio de 2016 o bisonte é
+              considerado um símbolo nacional dos Estados Unidos da América.
+            </p>
+          </section>
+
+          <section data-anime="show-down">
+            <h2>Águia</h2>
+            <p>
+              A águia é o nome comum dado algumas aves de rapina da família
+              Accipitridae, geralmente de grande porte, carnívoras, de grande
+              acuidade visual. O nome é atribuído a animais pertencentes a
+              gêneros diversos e não corresponde a nenhum clade taxonômico. Por
+              vezes, dentro de um mesmo gênero ocorrem espécies conhecidas
+              popularmente por gavião ou búteo.
+            </p>
+            <p>
+              Suas principais presas são: coelhos, esquilos, cobras, marmotas e
+              outros animais, principalmente roedores, de pequeno porte. Algumas
+              espécies alimentam-se de ovos de outros pássaros e peixes.
+            </p>
+            <p>
+              Costumam fazer seus ninhos em locais altos como, por exemplo, topo
+              de montanhas e árvores de grande porte.Existem diversas espécies
+              de águias, as mais conhecidas são: Águia-de-cabeça-branca,
+              águia-gritadeira, águia marcial, águia-malaia,
+              águia-dourada-européia e águia-imperial-ibérica.
+            </p>
+            <p>
+              Entre as águias da America Latina, a espécie chamada Harpia é umas
+              das maiores e chega a pesar até 8 kg, comprimento de até um metro,
+              com envergadura de até dois metros, põe até três ovos a cada vez,
+              com tempo de incubação de 35 dias, e atinge a velocidade de
+              aproximadamente 100Km/h.
+            </p>
+          </section>
+
+          <section data-anime="show-right">
+            <h2>Elefante</h2>
+            <p>
+              Elefante é o termo genérico e popular pelo qual são denominados os
+              membros da família Elephantidae, um grupo de mamíferos
+              proboscídeos elefantídeos, de grande porte, do qual há três
+              espécies no mundo atual, duas africanas (Loxodonta sp.) e uma
+              asiática (Elephas sp.).
+            </p>
+            <p>
+              Há ainda os mamutes (Mammuthus sp.), hoje extintos. Até
+              recentemente, acreditava-se que havia apenas duas espécies vivas
+              de elefantes, o elefante-africano e o elefante-asiático, uma
+              espécie menor. Entretanto, estudos recentes de DNA sugerem que
+              havia, na verdade, duas espécies de elefante-africano: Loxodonta
+              africana, da savana, e Loxodonta cyclotis, que vive nas florestas.
+            </p>
+            <p>
+              Os elefantes são os maiores animais terrestres da actualidade, com
+              a massa entre 4 a 6 toneladas e medindo em média quatro metros de
+              altura, podem levantar até 10.000 kg. As suas características mais
+              distintivas são as presas de marfim.
+            </p>
+          </section>
+
+          <section data-anime="show-down">
+            <h2>Urso</h2>
+            <p>
+              Os Ursos (latim científico: Ursidae) constituem uma família de
+              mamíferos plantígrados, da ordem Carnivora, geralmente de grande
+              porte, contendo os ursos e os pandas. Embora classificado como
+              urso, e logo após, como procionídeo, junto com o panda-vermelho
+              (atualmente classificado em sua própria família, Ailuridae), o
+              panda-gigante foi recolocado dentro da família dos ursídeos devido
+              às novas pesquisas genéticas.
+            </p>
+            <p>
+              Algumas características comuns dos ursos são pelagem espessa, rabo
+              curto, o olfato desenvolvido e as garras não retráteis. Os
+              ursídeos são geralmente animais omnívoros, mas se alimentam
+              principalmente de carne.
+            </p>
+            <p>
+              As espécies mais antigas e primitivas desta família estão reunidas
+              no gênero Ballusia, do Mioceno Inferior, que ainda retêm
+              características similares aos Hemicyonidae. Do Ballusia descende o
+              gênero Ursavus, fonte dos ursíneos, e talvez o Agriarctos,
+              ancestral dos agrioteríneos.
+            </p>
+            <p>
+              Os ursos existem em todos os continentes, em exceção na África,
+              embora algumas fontes afirmem terem avistado o Urso nandi, mas sem
+              comprovarem a sua existência.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="grid-section faq" data-anime="scroll" id="faq">
+        <h1 class="titulo">FAQ</h1>
+
+        <dl class="faq-lista" data-anime="accordion">
+          <dt>Qual a idade dos animais?</dt>
+          <dd>
+            Os gatos que vivem sob cuidados de humanos podem viver mais de 20
+            anos. Para que atinjam tal idade, é recomendado que a partir dos
+            oito anos de idade esses animais sejam submetidos a um tratamento
+            diferenciado, envolvendo alimentação diferenciada, consultas
+            veterinárias e exames de saúde regulares.
+          </dd>
+
+          <dt>Eles são fantásticos?</dt>
+          <dd>
+            Os gatos conseguem comunicar-se de forma bastante eficaz, seja com
+            humanos ou com outros seres de sua espécie. Estudos da inteligência
+            em gatos têm demonstrado que tais animais são dotados de um aparato
+            cognitivo capaz de lhes propiciar diversas ações, que podem ser
+            compreendidas como sinais de inteligência. O cérebro destes animais
+            apresenta estruturas complexas que possibilita-lhes desenvolver uma
+            espécie de linguagem, comunicando-se por meio de miados, ronronares,
+            bufos, gritos e linguagens corporais.
+          </dd>
+
+          <dt>Qual a diferença?</dt>
+          <dd>
+            O gato doméstico foi denominado Felis catus por Carolus Linnaeus na
+            sua obra Systema Naturae, de 1758. Johann Christian Daniel von
+            Schreber chamou o gato selvagem de Felis silvestris, em 1775. De
+            acordo com critérios filogenéticos, os gatos caseiros são
+            considerados uma das subespécies do gato selvagem. Não é incomum,
+            aliás, o cruzamento entre gatos domésticos e selvagens, formando
+            espécimes híbridos.
+          </dd>
+
+          <dt>Como proteger?</dt>
+          <dd></dd>
+        </dl>
+      </section>
+
+      <section class="grid-section numeros" data-anime="scroll">
+        <h1 class="titulo">Números</h1>
+        <div class="numeros-grid"></div>
+      </section>
+
+      <section class="grid-section contato" data-anime="scroll" id="contato">
+        <h1 class="titulo">Contato</h1>
+
+        <div
+          class="mapa"
+          data-tooltip
+          aria-label=" Zoológico do Rio de Janeiro"
+        >
+          <img src="img/contato_map.png" />
+        </div>
+
+        <ul class="dados">
+          <li>contato@gmail.com</li>
+          <li>+55 21 999999999</li>
+          <li>Rua Pero Vaz, n° 22</li>
+          <li>Petrópolis - RJ</li>
+          <li>Doe <span class="btc-preco">0</span> bitcoin para nos ajudar</li>
+          <li data-semana="1,2,3,4,5" data-horario="8,18">
+            Seg á Sex das 8 ás 18
+          </li>
+        </ul>
+      </section>
+
+      <footer class="copy">
+        <p>&copyTodos os direitos reservados. SCIA&reg</p>
+      </footer>
+    </div>
+
+    <section class="modal-container" data-modal="container">
+      <div class="modal">
+        <button class="fechar" data-modal="fechar">x</button>
+        <form action="">
+          <label for="email">Email</label>
+          <input type="text" for="email" id="email" />
+          <label for="senha">Senha</label>
+          <input type="password" for="senha" id="senha" />
+          <button type="submit">Entrar</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="main.js/main.js"></script>
+  </body>
+</html>
