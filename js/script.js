@@ -3,7 +3,7 @@ import Accordion from "./modules/animacao_accordion.js";
 import ScrollSuave from "./modules/scroll_suave.js";
 import initAnimacaoScroll from "./modules/animacao_scroll.js";
 import Modal from "./modules/modal.js";
-import initTooltip from "./modules/tooltip.js";
+import Tooltip from "./modules/tooltip.js";
 import initDropDownMenu from "./modules/dropDown_menu.js";
 import initMobileMenu from "./modules/menu_mobile.js";
 import initFuncionamento from "./modules/funcionamento.js";
@@ -22,8 +22,10 @@ tabnav.init();
 const modal = new Modal('[data-modal="abrir"]', '[data-modal="fechar"]', '[data-modal="container"]');
 modal.init();
 
+const tooltip = new Tooltip('[data-tooltip]');
+tooltip.init();
+
 initAnimacaoScroll();
-initTooltip();
 initDropDownMenu();
 initMobileMenu();
 initFuncionamento();
