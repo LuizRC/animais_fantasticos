@@ -1,7 +1,7 @@
 import TabNav from "./modules/tab_nav.js";
 import Accordion from "./modules/animacao_accordion.js";
 import ScrollSuave from "./modules/scroll_suave.js";
-import initAnimacaoScroll from "./modules/animacao_scroll.js";
+import AnimacaoScroll from "./modules/animacao_scroll.js";
 import Modal from "./modules/modal.js";
 import Tooltip from "./modules/tooltip.js";
 import initDropDownMenu from "./modules/dropDown_menu.js";
@@ -36,7 +36,9 @@ fetchAnimais("./db-moc/animais_api.json", ".numeros-grid");
 
 bitcoinFetch("https://blockchain.info/ticker", ".btc-preco");
 
-initAnimacaoScroll();
+const scrollAnima = new AnimacaoScroll('[data-anime="scroll"]');
+scrollAnima.init();
+
 initDropDownMenu();
 initMobileMenu();
 initFuncionamento();
