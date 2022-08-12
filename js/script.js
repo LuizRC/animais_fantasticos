@@ -1,4 +1,4 @@
-import TabNav  from "./modules/tab_nav.js";
+import TabNav from "./modules/tab_nav.js";
 import Accordion from "./modules/animacao_accordion.js";
 import ScrollSuave from "./modules/scroll_suave.js";
 import initAnimacaoScroll from "./modules/animacao_scroll.js";
@@ -16,18 +16,25 @@ scrollSuave.init();
 const accordionLista = new Accordion('[data-anime="accordion"] dt');
 accordionLista.init();
 
-const tabnav = new TabNav('[data-tab="menu"] li', '[data-tab="content"] section');
+const tabnav = new TabNav(
+  '[data-tab="menu"] li',
+  '[data-tab="content"] section'
+);
 tabnav.init();
 
-const modal = new Modal('[data-modal="abrir"]', '[data-modal="fechar"]', '[data-modal="container"]');
+const modal = new Modal(
+  '[data-modal="abrir"]',
+  '[data-modal="fechar"]',
+  '[data-modal="container"]'
+);
 modal.init();
 
-const tooltip = new Tooltip('[data-tooltip]');
+const tooltip = new Tooltip("[data-tooltip]");
 tooltip.init();
 
-fetchAnimais('./db-moc/animais_api.json', '.numeros-grid')
+fetchAnimais("./db-moc/animais_api.json", ".numeros-grid");
 
-bitcoinFetch('https://blockchain.info/ticker', '.btc-preco')
+bitcoinFetch("https://blockchain.info/ticker", ".btc-preco");
 
 initAnimacaoScroll();
 initDropDownMenu();
